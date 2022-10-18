@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yelinz515/todolist/static/css/main.65ecc795.css",
+    "main.js": "/yelinz515/todolist/static/js/main.bef3285e.js",
+    "index.html": "/yelinz515/todolist/index.html",
+    "main.65ecc795.css.map": "/yelinz515/todolist/static/css/main.65ecc795.css.map",
+    "main.bef3285e.js.map": "/yelinz515/todolist/static/js/main.bef3285e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65ecc795.css",
+    "static/js/main.bef3285e.js"
+  ]
+}
