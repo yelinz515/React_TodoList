@@ -39,7 +39,7 @@ const Form = ({input, setInput, todos, setTodos, editTodo, setEditTodo}) => {
       <input type="text" placeholder="Enter a Todo..." className="task-input"
       value={input} required onChange={setInputChange} />
       <button className="button-add" type="submit">
-        {editTodo ? "Ok" : "추가"}
+        {editTodo ? "수정" : "추가"}
       </button>
     </form>
   );
