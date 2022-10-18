@@ -1,3 +1,3 @@
 # React_TodoList
 
-![todolist.gif](todolist.gif))
+![todolist.gif](todolist.gif)
