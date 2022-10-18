@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* border: 2px solid white; */
+  background: linear-gradient(to right bottom, rgb(219, 219, 219), #ffffff);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #0c1e22;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px black;
+  margin-bottom: 10px;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  margin: 30px 0;
+  font-size: 28px;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+.task-input {
+  border: 0;
+  /* outline: none; */
+  width: 265px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: black;
+  border-radius: 10px;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+.button-add {
+  border: 1px solid white;
+  width: 70px;
+  padding: 14px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  /* 마우스 모양으로 바뀜 */
+  cursor: pointer;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  max-height: 30px;
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.button-complete {
+  color: white;
+  margin-right: 15px;
+}
+
+.button-edit {
+  color: white;
+  margin-right: 12px;
+}
+
+.button-delete {
+  color: white;
+}
+
+.complete {
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: whitesmoke;
+  opacity: 0.6;
+}
+
+.list {
+  width: 220px;
+  background-color: #0c1e22;
+  border: none;
+  color: white;
+  font-size: 22px;
+  padding-left: 10px;
+  margin-right: 20px;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
